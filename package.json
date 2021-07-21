@@ -1,0 +1,14 @@
+{
+  "name": "learnesbuild",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:k186/learnesbuild.git",
+  "author": "YPanda <k1868548@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./build/esbuild.config.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.12.15"
+  }
+}
