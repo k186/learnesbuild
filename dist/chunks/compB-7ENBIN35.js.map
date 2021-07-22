@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/components/compB.js"],
+  "sourcesContent": ["/**\r\n * Created by k186 on 2021/7/21.\r\n * Name:\r\n * GitHub:\r\n * Email: k1868548@gmail.com\r\n */\r\nexport default {\r\n  name: 'compB',\r\n  ability: {},\r\n  getName() {\r\n    return this.name;\r\n  },\r\n  initStatus(name, abilities = {run: true}) {\r\n    if (this.name === name) {\r\n      this.ability = {...abilities}\r\n    } else {\r\n      console.error('wrong name');\r\n    }\r\n  }\r\n}"],
+  "mappings": ";;;;;AAMA,IAAO,gBAAQ;AAAA,EACb,MAAM;AAAA,EACN,SAAS;AAAA,EACT,UAAU;AACR,WAAO,KAAK;AAAA;AAAA,EAEd,WAAW,MAAM,YAAY,EAAC,KAAK,QAAO;AACxC,QAAI,KAAK,SAAS,MAAM;AACtB,WAAK,UAAU,mBAAI;AAAA,WACd;AACL,cAAQ,MAAM;AAAA;AAAA;AAAA;",
+  "names": []
+}

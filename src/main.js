@@ -6,9 +6,13 @@
  */
 
 import compA from "./components/compA";
-import compB from "./components/compB";
 
-export default {
-  compA,
-  compB
+let component = {
+  compA
 }
+import("./components/compB").then(res => {
+  component.compB = res;
+})
+
+
+export default component

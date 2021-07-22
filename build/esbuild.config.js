@@ -12,6 +12,8 @@ require('esbuild').build({
   bundle: true,
   minify: false,
   sourcemap: true,
+  splitting: true,
+  chunkNames: 'chunks/[name]-[hash]',
   format: 'esm',/*umd hack
   https://github.com/jacobp100/technicalc-core/blob/master/packages/technicalc-prebuilt/build.js#L88-L109
   
